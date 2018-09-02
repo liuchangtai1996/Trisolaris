@@ -1,8 +1,47 @@
-.profile {
-    width: 200px;
-    background: #ccc;
-    font-size: 0.8em;
-    text-align: center;
+@media only screen and (max-width: 768px) {
+    .profile {
+        width: 100%;
+        background: #ccc;
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .profile-pic {
+        width: 60%;
+    }
+
+    .team-logo {
+        width: 30%;
+    }
+
+    .player-name {
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .profile {
+        width: 200px;
+        background: #ccc;
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .profile-pic {
+        width: 100%;
+    }
+
+    .team-logo {
+        width: 50%;
+    }
+
+    .player-name {
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+    }
 }
 
 .profile div {
@@ -24,18 +63,4 @@
 .profile-entry-right {
     text-align: right;
     flex: 1;
-}
-
-.profile-pic {
-    width: 100%;
-}
-
-.team-logo {
-    width: 50%;
-}
-
-.player-name {
-    text-align: center;
-    font-size: 25px;
-    font-weight: bold;
 }
